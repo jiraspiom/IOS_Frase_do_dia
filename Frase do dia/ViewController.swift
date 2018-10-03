@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         frases.append("quarta frase")
         frases.append("quinta frase")
         
-        var numero = arc4random_uniform(5)
+        let numero = arc4random_uniform(5)
         
         fraseGerada.text = frases[Int(numero)]
         
