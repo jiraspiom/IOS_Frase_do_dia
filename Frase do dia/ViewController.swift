@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         frases.append("segunda frase")
         frases.append("terceira frase")
         frases.append("quarta frase")
-        frases.append("quinta frase")
+        frases.append("quinta frase talves seja alterado")
         
         let numero = arc4random_uniform(5)
         
